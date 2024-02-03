@@ -11,6 +11,7 @@ import {
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import { authReducer } from './auth/authSlice';
+import { ortArrReducer } from './ortArr/ortArrSlice';
 
 
 const authPersistConfig = {
@@ -22,6 +23,7 @@ const authPersistConfig = {
 export const store = configureStore({
   reducer: {
     auth: persistReducer(authPersistConfig, authReducer),
+    ortArr: ortArrReducer,
   },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({

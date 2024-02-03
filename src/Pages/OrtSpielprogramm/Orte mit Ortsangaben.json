@@ -1,0 +1,667 @@
+[
+ {
+  "Ort": "die Arbeit",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Fahrstunde",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "der Gitarrenunterricht",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Tanzkurz",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "das Fitness(training)",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Grillen",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Schwimmen",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Skilaufen",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Training",
+  "Kategorie": "Aktivität",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "Aldi",
+  "Kategorie": "Firma",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Lidl",
+  "Kategorie": "Firma",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Mc Donalds",
+  "Kategorie": "Firma",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Rewe",
+  "Kategorie": "Firma",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Stackmann",
+  "Kategorie": "Firma",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Helgoland",
+  "Kategorie": "Insel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Mallorca",
+  "Kategorie": "Insel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Rügen",
+  "Kategorie": "Insel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Sylt",
+  "Kategorie": "Insel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "die Garage",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Hose",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Innenstadt",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Jacke",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Kiste",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Küche",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Schublade",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Tasche",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Türkei",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Ukraine",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "der Irak",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Iran",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Keller",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Schrank",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Sudan",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "das Bad",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Bett",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Fitnessstudio",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Internet",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Kino",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Klassenzimmer",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Schlafzimmer",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Wohnzimmer",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "die Niederlande",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "p"
+ },
+ {
+  "Ort": "die USA",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "p"
+ },
+ {
+  "Ort": "die VAE",
+  "Kategorie": "Ort mit Artikel",
+  "Geschlecht": "p"
+ },
+ {
+  "Ort": "die Ausländerbehörde",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Botschaft",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Fahrschule",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Firma",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Moschee",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Schule",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "der Imbiss",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Kindergarten",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Supermarkt",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der türkisch_ Markt",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "das Büro",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Jobcenter",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Konsulat",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Museum",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Rathaus",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Restaurant",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Sekretariat",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Standesamt",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Theater",
+  "Kategorie": "Ort mit Artikel\/Organisation",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "Apensen",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Bremen",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Buxtehude",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Damaskus",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Deutschland",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "England",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Hamburg",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Italien",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Jork",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Kabul",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "London",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Madrid",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Odessa",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Polen",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Spanien",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Stade",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Syrien",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Teheran",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Thailand",
+  "Kategorie": "Ort ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Andreas",
+  "Kategorie": "Person ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Anna und Tim",
+  "Kategorie": "Person ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Felix",
+  "Kategorie": "Person ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Frau Meyer",
+  "Kategorie": "Person ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Herr und Frau Müller",
+  "Kategorie": "Person ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Olena",
+  "Kategorie": "Person ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Svetlana",
+  "Kategorie": "Person ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "Tina",
+  "Kategorie": "Person ohne Artikel",
+  "Geschlecht": "-"
+ },
+ {
+  "Ort": "die Physiotherapeutin",
+  "Kategorie": "Person mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Sekretärin",
+  "Kategorie": "Person mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Tierärztin",
+  "Kategorie": "Person mit Artikel",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "der Anwalt",
+  "Kategorie": "Person mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Arzt",
+  "Kategorie": "Person mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Fahrschullehrer",
+  "Kategorie": "Person mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Lehrer",
+  "Kategorie": "Person mit Artikel",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Dachboden",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Fussballplatz",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Marktplatz",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Mediamarkt",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Parkplatz",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Pausenhof",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Rasthof",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Rathausplatz",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Schulhof",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Spielplatz",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Sportplatz",
+  "Kategorie": "Platz, Hof, Markt",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "die Bushaltestelle",
+  "Kategorie": "Verkehrsstation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Haltestelle",
+  "Kategorie": "Verkehrsstation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die S-Bahnstation",
+  "Kategorie": "Verkehrsstation",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "der Bahnhof",
+  "Kategorie": "Verkehrsstation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Flughafen",
+  "Kategorie": "Verkehrsstation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Hafen",
+  "Kategorie": "Verkehrsstation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Hauptbahnhof",
+  "Kategorie": "Verkehrsstation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der ZOB",
+  "Kategorie": "Verkehrsstation",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "die Alster",
+  "Kategorie": "Wasser",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Elbe",
+  "Kategorie": "Wasser",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Nordsee",
+  "Kategorie": "Wasser",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "die Ostsee",
+  "Kategorie": "Wasser",
+  "Geschlecht": "f"
+ },
+ {
+  "Ort": "der Fluss",
+  "Kategorie": "Wasser",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Nil",
+  "Kategorie": "Wasser",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Ozean",
+  "Kategorie": "Wasser",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Pazifik",
+  "Kategorie": "Wasser",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der persische Golf",
+  "Kategorie": "Wasser",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der See",
+  "Kategorie": "Wasser",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "der Strand",
+  "Kategorie": "Wasser",
+  "Geschlecht": "m"
+ },
+ {
+  "Ort": "das Asowsch_ Meer",
+  "Kategorie": "Wasser",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Meer",
+  "Kategorie": "Wasser",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Mittelmeer",
+  "Kategorie": "Wasser",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Schwarze Meer",
+  "Kategorie": "Wasser",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "das Ufer",
+  "Kategorie": "Wasser",
+  "Geschlecht": "n"
+ },
+ {
+  "Ort": "(zu) Hause",
+  "Kategorie": "zu Hause",
+  "Geschlecht": "-"
+ }
+]
