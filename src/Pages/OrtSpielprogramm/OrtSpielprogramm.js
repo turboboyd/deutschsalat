@@ -1,16 +1,11 @@
 import { fetchOrtArr } from 'ReduxStore/ortArr/ortArrOperation';
 import css from './OrtSpielprogramm.module.css';
 import { useDispatch } from 'react-redux';
-import { useCallback, useEffect, useState } from 'react';
+import {useEffect} from 'react';
 import useOrtArr from 'Hooks/useOrtArr';
-import { otrTablet } from './OrtTablet';
-import { Formik, Field, Form } from 'formik';
-import * as Yup from 'yup';
 import OrtForm from 'Components/Form/OrtForm/OrtForm';
 
-const validationSchema = Yup.object().shape({
-  answer: Yup.string().required('Обязательное поле'),
-});
+
 export default function OrtSpielprogramm() {
   const dispatch = useDispatch();
   const { ortArr, status } = useOrtArr();

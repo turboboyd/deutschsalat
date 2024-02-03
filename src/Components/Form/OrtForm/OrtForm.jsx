@@ -3,6 +3,7 @@ import { Formik, Field, Form } from 'formik';
 import * as Yup from 'yup';
 import { otrTablet } from './OrtTablet';
 import css from './OrtForm.module.css';
+import Progress from 'Components/Progress/Progress';
 
 const validationSchema = Yup.object().shape({
   answer: Yup.string().required('Обязательное поле'),
@@ -10,6 +11,7 @@ const validationSchema = Yup.object().shape({
 
 export default function OrtForm({ ortArr }) {
   const [ortName, setOrtName] = useState('Wo');
+  const [correctAnswersNumber, setCorrectAnswersNumber] = useState(0);
   const [randomItem, setRandomItem] = useState(null);
   const [result, setResult] = useState('');
 
@@ -43,7 +45,7 @@ export default function OrtForm({ ortArr }) {
       );
 
       if (correctAnswers.includes(userAnswer)) {
-        console.log('correctAnswers: ', correctAnswers);
+        setCorrectAnswersNumber(prevCorrectAnswers => prevCorrectAnswers + 1);
         return 'Richtig!';
       } else {
         return 'Falsch!';
@@ -62,9 +64,11 @@ export default function OrtForm({ ortArr }) {
     [checkAnswer, randomItem]
   );
 
+
   return (
     <div>
       <button onClick={chooseRandomItem}>Starten</button>
+      {randomItem && <Progress correctAnswersNumber={correctAnswersNumber} totalAnswers={30} />}  
       {randomItem && (
         <>
           <h2>{ortName}?</h2>
