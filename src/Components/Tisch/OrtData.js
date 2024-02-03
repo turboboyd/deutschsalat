@@ -1,6 +1,4 @@
-import { Link } from "react-router-dom";
-
-const OrtData = [
+export const OrtData = [
   {
     Ort: 'Person mit Artikel',
     Woher: 'von D.',
@@ -51,30 +49,3 @@ const OrtData = [
     Wohin: 'zu D./an A.',
   },
 ];
-
-export default function OrtPractice() {
-    return (
-      <div>
-        <h1>woher/wo/wohin</h1>
-        <table>
-          <thead>
-            <tr>
-              {Object.keys(OrtData[0]).map(key => (
-                <th key={key}>{key}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {OrtData.map((row, index) => (
-              <tr key={index}>
-                {Object.values(row).map((value, i) => (
-                  <td key={i}>{value}</td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <Link to="/Spielprogramm">Üben</Link>
-      </div>
-    );
-}
