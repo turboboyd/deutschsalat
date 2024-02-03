@@ -10,7 +10,9 @@ const validationSchema = Yup.object().shape({
 });
 
 export default function OrtForm({ ortArr }) {
-  const [ortName, setOrtName] = useState('Wo');
+  // const [ortName, setOrtName] = useState('Wo');
+  // setOrtName('Wo');
+  const ortName = 'Wo'
   const [correctAnswersNumber, setCorrectAnswersNumber] = useState(0);
   const [randomItem, setRandomItem] = useState(null);
   const [result, setResult] = useState('');

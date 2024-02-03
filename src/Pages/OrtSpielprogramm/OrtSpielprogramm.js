@@ -21,6 +21,7 @@ export default function OrtSpielprogramm() {
         <div className={css.circle}>
           <div className={css.circle_color}>1</div>
         </div>
+
         {status === 'fulfilled' && <OrtForm ortArr={ortArr} />}
       </div>
     </>

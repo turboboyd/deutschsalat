@@ -6,7 +6,7 @@ import css from './Home.module.css';
 export default function Home() {
   return (
     <div>
-      <Link to="/ort">
+      <Link className={css.sfs} to="/ort">
         OrtPractice
       </Link>
     </div>
