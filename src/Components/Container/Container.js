@@ -1,11 +1,11 @@
+import css from './Container.module.css'
 
-
-const Container = () => {
+const Container = ({children}) => {
 
 
   return (
-    <div>
-    
+    <div className={css.Container}>
+      {children}
     </div>
   );
 };

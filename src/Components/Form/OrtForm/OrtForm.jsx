@@ -5,19 +5,20 @@ import { otrTablet } from './OrtTablet';
 import css from './OrtForm.module.css';
 import Progress from 'Components/Progress/Progress';
 import MainBtn from 'Components/Button/MainBtn';
+import Container from 'Components/Container/Container';
 
 const validationSchema = Yup.object().shape({
   answer: Yup.string().required('Обязательное поле'),
 });
 
 export default function OrtForm({ ortArr, ortName }) {
-
   const [correctAnswersNumber, setCorrectAnswersNumber] = useState(0);
   const [randomItem, setRandomItem] = useState(null);
   const [result, setResult] = useState('');
   const [foundCategories, setFoundCategories] = useState([]);
   console.log('foundCategories: ', foundCategories);
   const chooseRandomItem = useCallback(() => {
+    setFoundCategories([]);
     setResult('');
     const randomIndex = Math.floor(Math.random() * ortArr.length);
     setRandomItem(ortArr[randomIndex]);
@@ -41,7 +42,6 @@ export default function OrtForm({ ortArr, ortName }) {
         correctAnswerItems = [...correctAnswerItems, ...items];
       });
 
-      // Сохраняем найденные категории
       setFoundCategories(correctAnswerItems);
 
       if (!correctAnswerItems.length) {
@@ -73,48 +73,50 @@ export default function OrtForm({ ortArr, ortName }) {
   );
 
   return (
-    <div>
-      {randomItem && (
-        <Progress
-          correctAnswersNumber={correctAnswersNumber}
-          totalAnswers={30}
-        />
-      )}
-      {randomItem && (
-        <>
-          <h2>{ortName}?</h2>
-          <p>{randomItem.Ort}</p>
-          <Formik
-            initialValues={{ answer: '' }}
-            onSubmit={handleSubmit}
-            validationSchema={validationSchema}
-          >
-            {({ isSubmitting }) => (
-              <Form className={css.form}>
-                <Field type="text" name="answer" disabled={result} />
-                <div className={css.result}>
-                  {result}
-                  {foundCategories.map((category, index) => (
-                    <div key={index}>
-                      <p>Kategorie: {category.Kategorie}</p>
-                      {ortName === 'wo' && <p>wo: {category.wo}</p>}
-                      {ortName === 'woher' && <p>woher: {category.woher}</p>}
-                      {ortName === 'wohin' && <p>wohin: {category.wohin}</p>}
-                    </div>
-                  ))}
-                </div>
-                {!result ? (
-                  <MainBtn type="submit">Senden</MainBtn>
-                ) : (
-                  <MainBtn type="button" onClick={chooseRandomItem}>
-                    Weiter
-                  </MainBtn>
-                )}
-              </Form>
-            )}
-          </Formik>
-        </>
-      )}
-    </div>
+    <Container>
+      <div>
+        {randomItem && (
+          <Progress
+            correctAnswersNumber={correctAnswersNumber}
+            totalAnswers={30}
+          />
+        )}
+        {randomItem && (
+          <>
+            <h2>{ortName}?</h2>
+            <p>{randomItem.Ort}</p>
+            <Formik
+              initialValues={{ answer: '' }}
+              onSubmit={handleSubmit}
+              validationSchema={validationSchema}
+            >
+              {({ isSubmitting }) => (
+                <Form className={css.form}>
+                  <Field className={css.input} type="text" name="answer" disabled={result} />
+                  <div className={css.result_wrap}>
+                    {result}
+                    {foundCategories.map((category, index) => (
+                      <div key={index}>
+                        <p>Kategorie: {category.Kategorie}</p>
+                        {ortName === 'wo' && <p>wo: {category.wo}</p>}
+                        {ortName === 'woher' && <p>woher: {category.woher}</p>}
+                        {ortName === 'wohin' && <p>wohin: {category.wohin}</p>}
+                      </div>
+                    ))}
+                  </div>
+                  {!result ? (
+                    <MainBtn type="submit">Senden</MainBtn>
+                  ) : (
+                    <MainBtn type="button" onClick={chooseRandomItem}>
+                      Weiter
+                    </MainBtn>
+                  )}
+                </Form>
+              )}
+            </Formik>
+          </>
+        )}
+      </div>
+    </Container>
   );
 }
