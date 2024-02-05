@@ -1,14 +1,12 @@
-import { Link } from 'react-router-dom';
 import css from './Home.module.css';
+import LinkBtn from 'Components/Button/LinkBtn';
 
 
 
 export default function Home() {
   return (
     <div>
-      <Link className={css.sfs} to="/ort">
-        OrtPractice
-      </Link>
+      <LinkBtn to="/ort">OrtPractice</LinkBtn>
     </div>
   );
 }

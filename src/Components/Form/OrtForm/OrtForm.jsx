@@ -1,28 +1,31 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { Formik, Field, Form } from 'formik';
 import * as Yup from 'yup';
 import { otrTablet } from './OrtTablet';
 import css from './OrtForm.module.css';
 import Progress from 'Components/Progress/Progress';
+import MainBtn from 'Components/Button/MainBtn';
 
 const validationSchema = Yup.object().shape({
   answer: Yup.string().required('Обязательное поле'),
 });
 
-export default function OrtForm({ ortArr }) {
-  // const [ortName, setOrtName] = useState('Wo');
-  // setOrtName('Wo');
-  const ortName = 'Wo'
+export default function OrtForm({ ortArr, ortName }) {
+
   const [correctAnswersNumber, setCorrectAnswersNumber] = useState(0);
   const [randomItem, setRandomItem] = useState(null);
   const [result, setResult] = useState('');
-
+  const [foundCategories, setFoundCategories] = useState([]);
+  console.log('foundCategories: ', foundCategories);
   const chooseRandomItem = useCallback(() => {
     setResult('');
     const randomIndex = Math.floor(Math.random() * ortArr.length);
     setRandomItem(ortArr[randomIndex]);
-    return ortArr[randomIndex];
   }, [ortArr]);
+
+  useEffect(() => {
+    chooseRandomItem();
+  }, [chooseRandomItem]);
 
   const checkAnswer = useCallback(
     (userAnswer, randomItem) => {
@@ -37,6 +40,9 @@ export default function OrtForm({ ortArr }) {
         );
         correctAnswerItems = [...correctAnswerItems, ...items];
       });
+
+      // Сохраняем найденные категории
+      setFoundCategories(correctAnswerItems);
 
       if (!correctAnswerItems.length) {
         return 'Falsch!';
@@ -66,11 +72,14 @@ export default function OrtForm({ ortArr }) {
     [checkAnswer, randomItem]
   );
 
-
   return (
     <div>
-      <button onClick={chooseRandomItem}>Starten</button>
-      {randomItem && <Progress correctAnswersNumber={correctAnswersNumber} totalAnswers={30} />}  
+      {randomItem && (
+        <Progress
+          correctAnswersNumber={correctAnswersNumber}
+          totalAnswers={30}
+        />
+      )}
       {randomItem && (
         <>
           <h2>{ortName}?</h2>
@@ -83,13 +92,23 @@ export default function OrtForm({ ortArr }) {
             {({ isSubmitting }) => (
               <Form className={css.form}>
                 <Field type="text" name="answer" disabled={result} />
-                <div className={css.result}>{result}</div>
+                <div className={css.result}>
+                  {result}
+                  {foundCategories.map((category, index) => (
+                    <div key={index}>
+                      <p>Kategorie: {category.Kategorie}</p>
+                      {ortName === 'wo' && <p>wo: {category.wo}</p>}
+                      {ortName === 'woher' && <p>woher: {category.woher}</p>}
+                      {ortName === 'wohin' && <p>wohin: {category.wohin}</p>}
+                    </div>
+                  ))}
+                </div>
                 {!result ? (
-                  <button type="submit">Senden</button>
+                  <MainBtn type="submit">Senden</MainBtn>
                 ) : (
-                  <button type="button" onClick={chooseRandomItem}>
+                  <MainBtn type="button" onClick={chooseRandomItem}>
                     Weiter
-                  </button>
+                  </MainBtn>
                 )}
               </Form>
             )}

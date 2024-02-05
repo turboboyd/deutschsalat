@@ -1,0 +1,14 @@
+.MainBtn {
+  display: block;
+  width: 100%;
+  max-width: 352px;
+  padding: 14px 20px;
+  border-radius: 14px;
+  background: rgb(255, 125, 51);
+  border: transparent;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.41px;
+  text-align: center;
+}
