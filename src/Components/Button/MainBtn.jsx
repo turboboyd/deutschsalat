@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import css from './MainBtn.module.css';
 
 const MainBtn = ({ children, type, onClick }) => {
