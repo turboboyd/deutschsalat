@@ -6,6 +6,7 @@ import useOrtArr from 'Hooks/useOrtArr';
 import OrtForm from 'Components/Form/OrtForm/OrtForm';
 import LinkBtn from 'Components/Button/LinkBtn';
 import { useLocation } from 'react-router-dom';
+import Container from 'Components/Container/Container';
 
 export default function OrtSpielprogramm() {
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ export default function OrtSpielprogramm() {
 
   return (
     <>
-      <div>
+      <Container>
         {!search && (
           <>
             <h1>Spielprogramm</h1>
@@ -34,7 +35,7 @@ export default function OrtSpielprogramm() {
         {status === 'fulfilled' && search && (
           <OrtForm ortArr={ortArr} ortName={ortName} />
         )}
-      </div>
+      </Container>
     </>
   );
 }

@@ -3,16 +3,14 @@ import { Outlet } from 'react-router-dom';
 
 import Loader from 'Components/Loader/Loader';
 import Header from 'Components/Header/Header';
-
-
+import Container from 'Components/Container/Container';
 
 export default function Layout() {
-
-
-
   return (
     <>
-     <Header/>
+      <Container>
+        <Header />
+      </Container>
       <main>
         <Suspense fallback={<Loader />}>
           <Outlet />
