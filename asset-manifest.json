@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/deutschsalat/static/css/main.f1b32de5.css",
-    "main.js": "/deutschsalat/static/js/main.c1dc6759.js",
+    "main.css": "/deutschsalat/static/css/main.aad51ff5.css",
+    "main.js": "/deutschsalat/static/js/main.7ea2fc23.js",
     "static/media/InlineSprite.svg": "/deutschsalat/static/media/InlineSprite.deaab6704da3d6b33cd06ea2040151b5.svg",
     "index.html": "/deutschsalat/index.html",
-    "main.f1b32de5.css.map": "/deutschsalat/static/css/main.f1b32de5.css.map",
-    "main.c1dc6759.js.map": "/deutschsalat/static/js/main.c1dc6759.js.map"
+    "main.aad51ff5.css.map": "/deutschsalat/static/css/main.aad51ff5.css.map",
+    "main.7ea2fc23.js.map": "/deutschsalat/static/js/main.7ea2fc23.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1b32de5.css",
-    "static/js/main.c1dc6759.js"
+    "static/css/main.aad51ff5.css",
+    "static/js/main.7ea2fc23.js"
   ]
 }
