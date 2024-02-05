@@ -1,6 +1,6 @@
 import LinkBtn from 'Components/Button/LinkBtn';
 import TischOrt from 'Components/Tisch/TischOrt';
-import { Link, Outlet } from 'react-router-dom';
+import {  Outlet } from 'react-router-dom';
 
 export default function Ort() {
   return (
